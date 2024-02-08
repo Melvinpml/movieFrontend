@@ -13,10 +13,10 @@ const MovieNavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="#">Add Movie</Link>
+                                <Link className="nav-link active" aria-current="page" to="/">Add Movie</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">View Movies</Link>
+                                <Link className="nav-link" to="/viewall">View Movies</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Search Movie</Link>
