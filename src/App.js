@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddMovies from './components/AddMovies';
+import ViewMovies from './components/ViewMovies';
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element = {<AddMovies/>} />
-          {/* <Route path='/viewall' element = {} />
-          <Route path='/search' element = {} /> */}
+          <Route path='/viewall' element = {<ViewMovies/>} />
+          {/* <Route path='/search' element = {} /> */}
         </Routes>
       </BrowserRouter>
     </div>
